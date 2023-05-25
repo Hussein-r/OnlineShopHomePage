@@ -299,7 +299,7 @@ body{
   height:auto;
   width:90%;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   font-size: large;
@@ -362,7 +362,7 @@ body{
   scale: 1.5;
   }
 }
-@media only screen and (max-width: 852px) {
+@media only screen and (max-width: 920px) {
   .cs-line,.search,.first-menu,.Icons,.dropdown{
     display: none;
   }
@@ -382,16 +382,18 @@ body{
   }
   .main-div{
     display: block;
+    float: none;
     width:90%;
+    height:350px;
   }
   .sec-div{
     display: block;
+    float: none;
     width:90%;
+    height: 400px;
   }
-  
-
-
-
-  
+  .hero-section{
+    height: auto;
+  }
 }
 
