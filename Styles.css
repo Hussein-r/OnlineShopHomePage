@@ -395,5 +395,8 @@ body{
   .hero-section{
     height: auto;
   }
+  .flex-item{
+    margin:10px auto;
+  }
 }
 
